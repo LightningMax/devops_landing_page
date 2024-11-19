@@ -134,6 +134,11 @@ header nav span {
 
 }
 
+svg {
+  width: 18px;
+  height: 18px;
+}
+
 @media screen and (max-width: 400px) {
   header nav {
     display: none;
@@ -142,7 +147,6 @@ header nav span {
   #hero-section article {
     grid-template-columns: 1fr;
   }
-
 }
 /* #hero-section div h2 {
   text-align: center;
